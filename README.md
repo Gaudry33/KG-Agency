@@ -1,9 +1,5 @@
 # 💼 KG Agency – Site Web
 
-Bienvenue dans le dépôt du **site vitrine** de **KG Agency**, une agence spécialisée dans la gestion de carrières OFM (OnlyFans Management).  
-L'agence accompagne leurs talents dans leur croissance digitale, leur image de marque et la gestion de leur contenu.
-
----
 
 <p align="center">
   <img src="assets/preview.png" alt="Aperçu du site KG Agency" width="800">
