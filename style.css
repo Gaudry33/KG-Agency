@@ -1,0 +1,567 @@
+
+@font-face {
+  font-family: IntegralFont;
+  src: url(../fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+
+@font-face {
+  font-family: Contax;
+  src: url(../fonts/Contax\ Pro\ 75\ Bold\ Regular.ttf);
+}
+
+@font-face {
+  font-family: SF Pro;
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face {
+  font-family: Humanist;
+  src: url(../fonts/Humanist\ 777\ Black\ BT.ttf);
+}
+
+@font-face {
+  font-family: Kiro Light;
+  src: url(../fonts/Kiro\ Light.otf);
+}
+
+@font-face {
+  font-family: DIN;
+  src: url(../fonts/DIN.ttf);
+}
+
+@font-face {
+  font-family: Ocean;
+  src: url(../fonts/Oceanwide-Semibold.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.text-linear {
+  font-size: 1.8vh; 
+  position: relative; 
+  top: -3vh;
+  color:#888;
+  font-family: 'Ocean';
+}
+
+/* IMAGE ORDI */
+
+.ordi {
+  position: absolute;
+  width: 100vh;
+  height: 70vh;
+  right: -5vh;
+  
+}
+
+/* CORPS DE LA PAGE  */
+
+.backindex{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: black;
+  margin-top: 170px;
+  z-index: -2;
+}
+
+/* LOGO FOND */
+
+/* FIN CORPS DE LA PAGE */
+
+#Tittle {
+  color: rgba(255,255,255,1); 
+  font-family: "Archivo Black";
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+  display: block;
+}
+
+span {
+  flex-direction: column;
+}
+
+.main-title {
+  margin-bottom: 0.2rem; 
+}
+
+.move-up {
+  margin-top: -150px;
+}
+
+.section-title {
+  font-size: 2.5rem; /* Taille de base */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  z-index: 10000000000;
+  word-wrap: break-word; /* Permet au texte de se wrapper correctement */
+  color: white;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  word-wrap: break-word;
+  hyphens: auto;
+  color: white;
+}
+
+h6 {
+  font-family: "Poppins";
+  font-weight: Bold;
+  font-size: 25px;
+}
+
+#Fonctionnement.container.py-6.move-up {
+ margin-top: 120px;
+}
+
+
+.parent-selector {
+  margin: 0;
+  padding: 0;
+}
+
+
+.rounded:hover {
+  transition: filter 0.3s ease
+}
+
+#introduction {
+  top: 43vh;
+  left: 30vh;
+  position: relative;
+}
+
+.faq-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* LOGO OFM */
+
+.ofm {
+  width: 56px;
+  height: 56px;
+  background: url("../images/KG.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2.5vh;
+  margin-top: -3px;
+  left: 50px;
+  overflow: hidden;
+  z-index: 10;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.ofm:hover {
+  transform: scale(1.05);
+}
+
+.scrolled .ofm {
+  position: absolute;
+  top: 1.5vh;
+}
+
+
+
+/* VIDEO */
+
+.video-background {
+  position: absolute; /* Changé de relative à fixed */
+  top: 0vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.30;
+  z-index: -1;
+}
+
+.video-foreground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw; /* Maintient le ratio 16:9 */
+  min-height: 100vh;
+  min-width: 177.77vh; /* 100 * 16 / 9 */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+
+.video-foreground iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+/* FONCTIONNEMENT */
+
+.trio {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+/* MENU NAVIGATIONS */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .trait-nav {
+  position: relative;
+  top: -12vh;
+  height: 0.5px; 
+  background-color: white; 
+  opacity: 50%;
+  width: 60%; 
+  margin-top: 0px;
+  padding-left: 95vh;
+  padding-right: 95vh;
+} */
+
+.lien {
+  margin: 0 15px;               
+  text-decoration: none !important;        
+  color: white;      
+  padding: 15px 20px;             
+  font-size: 13px; 
+  font-weight: bold;
+  font-family: "Poppins";
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.lien:hover {
+  transform: scale(1.05);
+}
+
+
+/* Navigations MOBILE */
+
+
+.hamburger {
+  width: 46px;
+  height: 46px;
+  opacity: 1;
+  position: absolute;
+  top: 5vh;
+  margin-top: -10px;
+  right: 30px;
+  display: none;
+  overflow: hidden;
+  z-index: 10;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.hamburger:hover {
+  transform: scale(1.05);
+}
+
+/* NAVIGATIONS MOBILE PAGE CONTACT */
+
+
+.hamburger-contact {
+  width: 46px;
+  height: 46px;
+  opacity: 1;
+  position: absolute;
+  top: 1vh;
+  margin-top: -20px;
+  right: 30px;
+  z-index: 100;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease; 
+  display: none;
+}
+
+.hamburger-contact:hover {
+  transform: scale(1.05);
+}
+
+/* Navigations MOBILE PAGE MENTIONS LEGAL */
+
+
+.hamburger-legal {
+  display: none;
+  width: 46px;
+  height: 46px;
+  opacity: 1;
+  position: absolute;
+  top: 5vh;
+  margin-top: -10px;
+  right: 30px;
+  overflow: hidden;
+  z-index: 10;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.hamburger-legal:hover {
+  filter: invert(100%);
+  transform: scale(1.05);
+}
+
+
+
+/* Effet de soulignement au hover */
+
+.lien:hover::after {
+  transform: scaleX(1);
+}
+
+/* Animation des liens pendant le scroll */
+.navigations.scrolled .lien {
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+/* Animation d'apparition du background */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.vision {
+  position: relative;
+  top: -3vh;
+}
+
+
+/* INTRO */
+
+.fonctionnement {
+  font-size: 5vh; 
+  font-weight: 300; 
+  font-family: Ocean; 
+  color: white; 
+  position: relative; 
+}
+
+.Pourquoi {
+  position: relative;
+  padding: 2vh 0 5vh 0;
+  margin-top: 10vh;
+
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.Pourquoi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.Pourquoi * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Logo INSTAGRAM */
+
+.instagram {
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5.8vh;
+  margin-top: -10px;
+  right: 15vh;
+  overfloW: hidden;
+  z-index: 9;
+  fill: white;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.instagram:hover {
+  transform: scale(1.05);
+}
+
+.accordian-button.collapsed::after {
+  color: white;
+}
+
+/* RESULTATS */
+
+.bloc-resultats {
+  margin-top: -10vh;
+  margin-bottom: -20vh;
+}
+
+/* FOOTER PAGE ACCUEIL */
+
+.kg {
+  position: relative;
+  width: 18vh;
+  height: 15vh;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.trait {
+  opacity: 30% !important;
+}
+
+.footer-text, .footer-text a {
+  font-family: 'Lexend Tera';
+  font-size: 1.2vh;
+  color: #7C8693;
+  margin-top: 50px;
+}
+
+.footer-text a {
+  position: relative;
+  top: -3.5vh;
+}
+
+.lien-nav {
+  margin: 0 15px;               
+  text-decoration: none;        
+  color: white;      
+  padding: 15px 2px;             
+  font-size: 13px; 
+  font-weight: bold;
+  font-family: "Ocean";
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.lien-nav:hover {
+  background: linear-gradient(#2905FF, #9505FF, #CD05FF);
+  color: transparent;
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  text-decoration: underline;
+}
+
+.footer-nav {
+  margin-top: 20px;
+}
+
+/* Logo TIKTOK */
+
+.tiktok {
+  width: 22px;
+  height: 11.7vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1vh;
+  margin-top: -10px;
+  right: 7vh;
+  overfloW: hidden;
+  z-index: 10000;
+  fill: white;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.tiktok:hover {
+  transform: scale(1.05);
+}
+
+/* FAQ */
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+
+  .title{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 40px;
+  }
+
+
+  .questions-container{
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  .question{
+      border-bottom: 1px solid #fff;
+  }
+  .question button{
+      width: 100%;
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 15px;
+      border:none;
+      outline: none;
+      font-size: 17px;
+      font-family: "Poppins";
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+  }
+  .question p{
+      font-size: 15px;
+      max-height: 0;
+      opacity: 0;
+      line-height: 1.5;
+      overflow: hidden;
+      transition: all 0.6s ease;
+  }
+ 
+  /* 
+  Fin du fichier CSS.
+  Le site est en production, plus de modifications prévues.
+*/
+
+
+
+
+
+
+
