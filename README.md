@@ -31,11 +31,3 @@ Le site est **responsive** et conçu pour une navigation fluide sur mobile, tabl
 - 📍 Hébergement : OVH 
 - 🔐 RGPD conforme
   
-
-## ⚠️ Mentions légales
-
-Ce site est la propriété exclusive de **KG Agency**.  
-Tout usage, reproduction ou modification sans accord préalable est interdit.  
-Les contenus sont soumis à la législation européenne (UE 2021/392) et au RGPD.
-
-© 2025 – KG AGENCY. Tous droits réservés.
