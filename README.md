@@ -11,7 +11,7 @@
 * Fournir les mentions légales et la politique de confidentialité
 
  Le site est **responsive** et conçu pour une navigation fluide sur mobile, tablette et ordinateur.
-* 
+
 ## Technologies Utilisés
 
 * HTML5 / CSS3 / JavaScript
