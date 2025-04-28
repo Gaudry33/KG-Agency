@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/preview.png" alt="Aperçu du site KG Agency" width="800">
+  <img src="assets/kgvideo.gif" alt="Aperçu du site KG Agency" width="800">
 </p>
 
 ## Objectif du site
