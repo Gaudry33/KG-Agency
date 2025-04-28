@@ -5,8 +5,8 @@
 
 ## Objectif du site
 
-* Présenter l’agence et ses services 
-* Mettre en avant les talents
+* Présenter l’Agence et ses services
+* Design sobre, thème Luxury
 * Proposer un formulaire de contact 
 * Fournir les mentions légales et la politique de confidentialité
 
