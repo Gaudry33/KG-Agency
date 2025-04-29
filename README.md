@@ -22,6 +22,3 @@
 * OVH
 
 ---
-
-> GitHub (https://github.com/Gaudry33)
-> Portfolio (https://v0-portfolio-gaudry.vercel.app/)
